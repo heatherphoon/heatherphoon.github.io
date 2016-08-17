@@ -9,4 +9,11 @@ hr = (hr > 12) ? hr - 12 : hr ;
 hr = checkTime(hr);
 min = checkTime(min);
 sec = checkTime(sec);
+document.getElementById("clock").innerHTML = hr + ":" + min + ":" + sec + " " + ap;
+var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+var curWeekDay = days[today.getDay()];
+var curDay = today.getDate();
+var curMonth = months[today.getMonth()];
+var curYear = today.getFullYear();
 }
