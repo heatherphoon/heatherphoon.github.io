@@ -5,6 +5,9 @@ h1 {
       width: 200px;
       margin: 15px;
 }
+h1:hover {
+  color: black
+}
 button.navbar-toggle {
     background-color: #3e60d4;
     border-radius: 20px;
