@@ -1,0 +1,125 @@
+h1 {
+  font-size: 20px;
+      font-weight: 900;
+      color: #3e60d4;
+      width: 200px;
+      margin: 15px;
+}
+button.navbar-toggle {
+    background-color: #3e60d4;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.navbar-header {
+    height: 80px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    border-bottom: #3e60d4 solid 2px;
+    background-color: transparent;
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    margin: 25px 0;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+.navbar-nav>li>a:hover {
+    color: #3e60d4 !important;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+}
+.carouselpara {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.carousel-caption {
+    padding: 100px 0px;
+}
+.carousel {
+    position: relative;
+    margin-top: 40px;
+}
+h3 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 0 10%;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+span.glyphicon-search {
+    background-color: #3e60d4;
+    border-radius: 45px;
+    color: white;
+margin: 5px;
+}
+span.glyphicon-search:hover {
+    background-color: black;
+}
+section {
+  background: url('../img/lib.jpg');
+  color: white
+}
+.row-content {
+  padding: 100px 0px;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #3e60d4;
+  color: white;
+  font-size: 16px
+}
+footer a {
+  color: #e0e018;
+  text-decoration: underline;
+}
+input#search, .input-group-btn>.btn {
+    background-color: #ececec;
+    font-size: 20px;
+    padding: 22px 12px;
+    border-radius: 0px;
+    border: none;
+box-shadow: none;
+position:static;
+}
+.input-group-btn>.btn {
+  font-size: 16px;
+        width: 44px;
+}
+a:visited {
+  color: #5f255f;
+}
+body {
+    padding: 50px 0px 0px 0px;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+img.img-responsive {
+  height: 350px !important;
+}
+}
