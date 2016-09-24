@@ -121,8 +121,3 @@ body {
   right: 0px;
 }
 
-@media only screen and (max-width: 700px) {
-img.img-responsive {
-  height: 350px !important;
-}
-}
