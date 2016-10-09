@@ -345,9 +345,11 @@ Example:
     }
 })(jQuery, window, document);
 
-var tl = new TimelineMax({repeat:10, repeatDelay:1});
-tl.staggerTo("h1", 1, {className:"+=superShadow", top:"-=30px", ease:Elastic.easeOut.config(2, 0.4)}, 0.1);
-tl.staggerTo("h1", 0.4, {className:"-=superShadow", top:"+=30px"}, 0.2, "+=1");
+
+
+var tl = new TimelineMax({repeat:99, repeatDelay:0.1});
+tl.staggerTo("h1", 1, {className:"+=superShadow", top:"-=30px", ease:Elastic.easeOut.config(1, 0.4)}, 0.1);
+tl.staggerTo("h1", 0.4, {className:"-=superShadow", top:"+=30px"}, 0.2, "+=0.5");
 
 //animation powered by GSAP JS
 //http:www.greensock.com/gsap-js/
