@@ -1,0 +1,138 @@
+body {
+    background: black;
+}
+.navbar-header {
+    padding-left: 50px;
+}
+#photo {
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 10px white;
+    margin: auto;
+    width: 350px;
+}
+div#home {
+    margin: 30px 0px;
+}
+h1 {
+    font-size: 36px;
+    color: grey;
+    padding-top: 55px;
+        padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 40px;
+font-family: 'Comfortaa', cursive;
+}
+
+form.form-horizontal.form-inline {
+    padding: 16px;
+}
+#semail {
+    width: 75%;
+    margin-right: 20px;
+}
+input#email {
+    width: 100%;
+}
+div#aboutme, section  {
+    background: #d29c50;
+}
+#aboutme h1, #services h1 {
+	    color: white;
+	        padding-bottom: 30px;
+}
+#aboutme p {
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    }
+h3 {
+    color: #cac9c9;
+    padding: 15px 0px;
+    font-family: 'Courgette', cursive;
+}
+div#myblogs h1 {
+	text-align: center;
+}
+div#myblogs a,a.contactme  {
+	color: #d29c50;
+}
+#services p {
+    color: black;
+        padding-right: 20px;
+}
+.nav-tabs>li>a {
+    background-color: lightgrey;
+    color: #d29c50;
+    font-variant: small-caps
+}
+.nav-tabs>li>a.active {
+color: black
+}
+.nav-tabs>li.active {
+    width: 50%
+}
+.nav-tabs>li {
+    width: 25%
+}
+.tab-content {
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #ddd;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.col-md-8 {
+    padding: 0px 30px;
+}
+address, label {
+    color: white;
+    letter-spacing: 0.6px;
+}
+#last p {
+    text-align: center;
+    padding: 10px
+}
+img.img-responsive {
+    height: 350px;
+    margin: auto;
+    max-width: none;
+}
+
+h1{
+  position:relative;
+}
+
+/*
+text-shadow originated from: http://codepen.io/zitrusfrisch
+*/
+.superShadow {
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+}
+
+strong{
+  font-size:200px;
+}
