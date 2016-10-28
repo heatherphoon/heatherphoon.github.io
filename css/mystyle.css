@@ -172,21 +172,40 @@ blockquote footer {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-.fom{
+li.fom{
   list-style:none;
   cursor:pointer;
 }
-
+li.fom:hover{
+    text-decoration: underline
+}
 div.dfom{
   background:black;
   border-radius:5px;
   position:absolute;
   display:none;
   color:white;
-    font-size: 1em
+    font-size: 1em;
+    cursor:default;
+    width: 100%;
+    height: 320px
+}
+#dfom2{
+    height: 230px
+}
+#dfom3{
+    height: 150px
+}
+#dfom2 li{
+    text-align:left;
+    text-decoration: none;
+        margin: 12px;
+}
+#dfom2 a {
+    color: #8876ff;
 }
 div.dfom img {
-    width: 250px
+    width: 100%
 }
 div.dfom:before{
   content:'';
@@ -196,7 +215,7 @@ div.dfom:before{
   border-bottom-color:#1d1d1d;
   position:absolute;
   top: -18px;
-  left:130px;
+  left:45%;
 }
 .btn#buttontop {
     margin-left:0
