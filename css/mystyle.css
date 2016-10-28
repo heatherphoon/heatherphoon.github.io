@@ -60,7 +60,6 @@ h1 {
     text-decoration: none;
         padding: 8px 30px;
         display: block;
-    padding: 8px 30px;
 }
 #topbutton:hover{
     color:white
@@ -70,9 +69,10 @@ h1 {
     display: block;
     background: transparent;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     border: 1px solid #8876ff;
-    transition: 1s
+    transition: 1s;
+            padding: 0px;
 }
 #buttontop:hover {
     background-color: #8876ff;
@@ -174,23 +174,21 @@ blockquote footer {
 }
 .fom{
   list-style:none;
-  cursor:default;
+  cursor:pointer;
 }
 
-div.fom{
+div.dfom{
   background:black;
   border-radius:5px;
   position:absolute;
   display:none;
-}
-div.fom {
   color:white;
     font-size: 1em
 }
-div.fom img {
+div.dfom img {
     width: 250px
 }
-div.fom:before{
+div.dfom:before{
   content:'';
   height:20px;
   width:10px;
@@ -199,4 +197,24 @@ div.fom:before{
   position:absolute;
   top: -18px;
   left:130px;
+}
+.btn#buttontop {
+    margin-left:0
+}
+.glyphicon-align-justify {
+    color:#9585ff
+}
+#contactme h1 {
+    text-align:left
+}
+#contactme #grain {
+    text-align:left;
+    padding-left:50px
+}
+address#grain {
+    font-size: 1em;
+    padding-left: 0px !important;
+}
+form#grain {
+    font-size:1em
 }
