@@ -15,10 +15,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
       <link href="https://fonts.googleapis.com/css?family=Bad+Script|Questrial" rel="stylesheet">
-      <link href="css/mystyle.css" rel="stylesheet">
+      <link href="css/mystyles.css" rel="stylesheet">
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="20">
-      <section>
          <nav class="navbar navbar-fixed-top">
             <div class="container">
                <div class="navbar-header">
@@ -47,10 +46,8 @@
                </div>
             </div>
          </nav>
-      </section>
-      <section class="header">
          <div class="container" id="home">
-            <div class="row row-header">
+            <div class="row row-header parallax">
                <h1 id="title">I Tailor My Services to Your Marketing Needs</h1>
                <p id="grain">
                   <span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span>
@@ -59,9 +56,8 @@
                <a href="#contactme" id="topbutton">Contact Me Now</a></button>
             </div>
          </div>
-      </section>
       </div>
-      <section class="module parallax parallax-1">
+      <section>
          <div id="mycarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -91,7 +87,7 @@
                   </div>
                </div>
                <div class="item">
-                  <img class="img-responsive" src="img/slider3.jpg" alt="Fixing">
+                  <img class="img-responsive" src="img/slider3.jpg" alt="insects">
                   <div class="carousel-caption">
                      <h2>I notice beauty </h2>
                      <p align=left class="carouselpara">I take them into my life 
@@ -139,7 +135,7 @@
                         <li class="fom">
                            <span class="glyphicon glyphicon-grain"></span> Find Out More <span class="glyphicon glyphicon-grain"></span>
                            <div class="dfom">I built this website myself!<br><br>
-                              <img src="img/picture.png">
+                              <img src="img/picture.png"  alt="My Portfolio">
                            </div>
                         </li>
                          </ul>
@@ -206,7 +202,12 @@
             </div>
          </div>
          <div class="col-xs-12 col-md-5">
-            <img src="img/photo.jpg" class="img-responsive">
+            <img src="img/photo.jpg" class="img-responsive" id="myImg" alt="Heather Phoon">
+             <div id="myModal" class="modal">
+                 <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                 <img class="modal-content" id="img01">
+                 <div id="caption"></div>
+             </div>
          </div>
       </div>
       <div class="container" id="testimonial">
@@ -319,8 +320,8 @@
          <p style="padding:1px;"></p>
          <p id="grain" style="color:white;padding:10px">© Copyright 2016 Heather Phoon</p>
          </section> -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-                          <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+          <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 
       <script src="js/bootstrap.min.js"></script>
