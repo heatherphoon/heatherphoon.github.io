@@ -47,7 +47,7 @@
             </div>
          </nav>
          <div class="container" id="home">
-            <div class="row row-header parallax">
+            <div class="row row-header parallax" id="fade">
                <h1 id="title">I Tailor My Services to Your Marketing Needs</h1>
                <p id="grain">
                   <span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span>
@@ -97,14 +97,6 @@
                </div>
             </div>
             <!-- Controls -->
-            <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-            </a>
             <div class="btn-group" id="carouselButtons">
                <button class="btn btn-danger btn-xs" id="carousel-pause">
                <span class="glyphicon glyphicon-pause"></span>
@@ -217,7 +209,12 @@
                <span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span>
             </p>
             <div class="col-md-4">
-               <div class="well">
+               <div class="well" data-animate-scroll='{"alpha": "0",
+                    "y":"50", 
+                    "duration": "1.75",
+                    "scaleX": "0",
+                    "scaleY": "0",
+                    "ease": "Elastic.easeIn"}'>
                   <br>
                   <blockquote>
                      <p>"We really like her work. Very Professional [and] exceeded my expectation. Thank you for your work :)"</p>
@@ -228,7 +225,12 @@
                </div>
             </div>
             <div class="col-md-4">
-               <div class="well">
+               <div class="well" data-animate-scroll='{"alpha": "0",
+                    "y":"50", 
+                    "duration": "1.75",
+                    "scaleX": "0",
+                    "scaleY": "0",
+                    "ease": "Elastic.easeIn"}'>
                   <br>
                   <blockquote>
                      <p>"Great communication thank you"</p>
@@ -239,7 +241,12 @@
                </div>
             </div>
             <div class="col-md-4">
-               <div class="well">
+               <div class="well" data-animate-scroll='{"alpha": "0",
+                    "y":"50", 
+                    "duration": "1.75",
+                    "scaleX": "0",
+                    "scaleY": "0",
+                    "ease": "Elastic.easeIn"}'>
                   <br>
                   <blockquote>
                      <p>"Amazing work! It will be a pleasure work with Heather in the future"</p>
@@ -275,12 +282,7 @@
                </div>
             </div>
             <div class="col-xs-12 col-md-8">
-               <div data-animate-scroll='{"alpha": "0",
-                  "y":"50", 
-                  "duration": "1.75",
-                  "scaleX": "0",
-                  "scaleY": "0",
-                  "ease": "Elastic.easeIn"}'>
+               <div>
                   <h1>Leave Your Message Here!</h1>
                   <p id="grain" color:#9585ff;>
                      <span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span><span class="glyphicon glyphicon-grain"></span>
@@ -323,6 +325,11 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
           <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+                 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/EaselPlugin.min.js"></script>
+<script src="js/animate-scroll.js"></script>
 
       <script src="js/bootstrap.min.js"></script>
           <script src="js/custom.js"></script>
