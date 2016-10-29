@@ -1,6 +1,6 @@
 //carousel
 $(document).ready(function(){
-             $("#mycarousel").carousel( { interval: 5000 } );
+             $("#mycarousel").carousel( { interval: 3000 } );
                            $("#carousel-pause").click(function(){
                  $("#mycarousel").carousel('pause');
              });
@@ -72,8 +72,15 @@ $(function(){
           elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
 
       el.style.backgroundPosition = elBackgrounPos;
-
+$("#fade").css("opacity", 1 - $(window).scrollTop() / 350);
     });
   };
 
-})();
+});
+
+//pop out when scrolling
+$(document).foundation();  
+      $(document).animateScroll();
+    
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
