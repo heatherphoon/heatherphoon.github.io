@@ -6,7 +6,7 @@ body{
 background-color: #a496ff;
 overflow-x:hidden
 }
-
+/* dropheader */
 nav {
 
     -moz-animation-name: dropHeader;
@@ -48,7 +48,7 @@ nav {
         transform: translateY(0);
     }
 }
-
+/* end of dropheader */
 #testimonial{
     background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 33%, rgba(202,196,255,1) 100%);
@@ -138,7 +138,9 @@ div#mycarousel {
     position: absolute;
     right: 0px;
 }
-img.img-responsive {margin: auto;}
+img.img-responsive {
+    margin: auto;
+}
 p.carouselpara {
     text-align: center;
 }
@@ -185,7 +187,7 @@ p.carouselpara {
     color: #9585ff;
     font-size: 1.4em;
 }
-div#aboutme,footer {
+div#aboutme,footer, .well {
     background: white;
 }
 
@@ -199,7 +201,6 @@ div#aboutme,footer {
 }
 
 .well {
-    background-color: white;
     border: 0px;
     border-radius: 0px;
     margin: 15px;
@@ -300,9 +301,9 @@ form#grain {
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 20; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 20; 
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -320,7 +321,7 @@ form#grain {
     height: 80%;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
+/* Caption of Modal Image (Image Text)  */
 #caption {
     margin: auto;
     display: block;
@@ -375,4 +376,20 @@ form#grain {
         width: 100%;
         height: auto
     }
+}
+#last #grain {
+    color:white;
+    padding:12px;
+        margin: 0px
+}
+#last ul {
+    text-align: center;
+    font-size: 0.6em
+}
+#last ul li {
+        display: inline-block;
+    margin: 0px 10px;
+}
+#last ul a {
+       color: white;          
 }
