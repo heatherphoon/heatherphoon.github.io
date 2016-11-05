@@ -15,8 +15,10 @@
       <![endif]-->
       <link href="https://fonts.googleapis.com/css?family=Bad+Script|Questrial" rel="stylesheet">
       <link href="css/mystyles.css" rel="stylesheet">
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
    </head>
-   <body data-spy="scroll" data-target=".navbar" data-offset="20">
+   <body data-spy="scroll" data-target=".navbar" data-offset="20" onload="loading()">
+       <div id="loader"><div></div></div>
          <nav class="navbar navbar-fixed-top">
             <div class="container">
                <div class="navbar-header">
@@ -68,7 +70,7 @@
             <div class="carousel-inner" role="listbox">
                <div class="item active">
                   <img class="img-responsive"
-                     src="img/slider.jpg" alt="edinburgh">
+                     src="img/slider.jpg" alt="edinburgh" id="edinburgh">
                   <div class="carousel-caption">
                      <h2>I see things from a broader perspective</h2>
                      <p align=left class="carouselpara">I see the wider purpose of your request
@@ -318,20 +320,20 @@
          </div>
       </footer>
       <section id="last">
-         <p id="grain">© Copyright 2016 Heather Phoon</p><ul>
+         <p id="grain">Designed and Built by Heather Phoon</p><ul>
           <li> ☻ CSS Gradient by <a href="">CSSmatic</a></li>
           <li> ☻ Flipping Cards by <a href="https://nnattawat.github.io/flip/">Nattawat Nonsung</a></li>
         <li> ☻ Smooth Page Scrolling by <a href="https://css-tricks.com/snippets/jquery/smooth-scrolling/">Chris Coyier</a></li>
             <li> ☻ Clickable Tooltips by <a href="https://codepen.io/jamilhijjawi/pen/lIwbK">Jamil Hijjawi</a></li>
         <li> ☻ Parallax Scrolling Effect by <a href="http://callmenick.com/post/advanced-parallax-scrolling-effect ">Nick Salloum</a></li>
-            <li> ☻ Zoomed Modal by <a href=" http://www.w3schools.com/howto/">W3schools.com</a></li>
+            <li> ☻ Zoomed Modal and Loader by <a href=" http://www.w3schools.com/howto/">W3schools.com</a></li>
           <li> ☻ Animated Scroll by <a href="http://www.jasonlusk.com/scroll">Jason Lusk</a></li>
            <li> ☻ Onload Animation by <a href="http://codepen.io/chrissp26/">Chris Spittles</a></li>
           
           </ul>
          </section>
 <!-- required for smooth scrolling -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
           
              <!-- not required apparently
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
