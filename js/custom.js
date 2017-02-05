@@ -73,7 +73,7 @@ $(function(){
           elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
 
       el.style.backgroundPosition = elBackgrounPos;
-$("#fade").css("opacity", 1 - $(window).scrollTop() / 350);
+$("#fade").css("opacity", 1 - $(window).scrollTop() / 700);
     });
   };
 
