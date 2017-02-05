@@ -65,6 +65,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .parallax {
   background-image: url("../img/slider.jpg");
     background-repeat: no-repeat;
+        height: 800px;
+background-size: cover;
 }
 #myservices {
     background: rgba(211,207,255,1);
