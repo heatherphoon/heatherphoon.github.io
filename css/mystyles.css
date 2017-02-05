@@ -192,7 +192,9 @@ p.carouselpara {
 div#aboutme,footer, .well {
     background: white;
 }
-
+footer {
+    width: 101%
+}
 @-webkit-keyframes glow {
     to {
         text-shadow: 0 0 10px black;
