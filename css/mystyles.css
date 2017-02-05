@@ -63,7 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     background-color: black
 }
 .parallax {
-  background-image: url("../img/sky.jpg");
+  background-image: url("../img/slider.jpg");
     background-repeat: no-repeat;
 }
 #myservices {
